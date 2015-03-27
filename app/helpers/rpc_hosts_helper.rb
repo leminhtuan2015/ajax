@@ -1,0 +1,2 @@
+module RpcHostsHelper
+end

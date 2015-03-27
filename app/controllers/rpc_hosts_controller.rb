@@ -1,0 +1,2 @@
+class RpcHostsController < ApplicationController
+end

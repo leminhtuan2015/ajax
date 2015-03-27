@@ -1,0 +1,82 @@
+[6645] 27 Mar 08:59:10.603 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+[6645] 27 Mar 08:59:10.603 # Redis can't set maximum open files to 10032 because of OS error: Operation not permitted.
+[6645] 27 Mar 08:59:10.603 # Current maximum open files is 1024. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 2.8.19 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in stand alone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 6645
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+[6645] 27 Mar 08:59:10.605 # Server started, Redis version 2.8.19
+[6645] 27 Mar 08:59:10.605 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+[6645] 27 Mar 08:59:10.605 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+[6645] 27 Mar 08:59:10.605 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+[6645] 27 Mar 08:59:10.605 * DB loaded from disk: 0.000 seconds
+[6645] 27 Mar 08:59:10.605 * The server is now ready to accept connections on port 6379
+[6645] 27 Mar 09:14:11.069 * 1 changes in 900 seconds. Saving...
+[6645] 27 Mar 09:14:11.070 * Background saving started by pid 7137
+[7137] 27 Mar 09:14:11.137 * DB saved on disk
+[7137] 27 Mar 09:14:11.138 * RDB: 6 MB of memory used by copy-on-write
+[6645] 27 Mar 09:14:11.170 * Background saving terminated with success
+[6645] 27 Mar 09:31:03.204 * 1 changes in 900 seconds. Saving...
+[6645] 27 Mar 09:31:03.206 * Background saving started by pid 7804
+[7804] 27 Mar 09:31:03.246 * DB saved on disk
+[7804] 27 Mar 09:31:03.246 * RDB: 6 MB of memory used by copy-on-write
+[6645] 27 Mar 09:31:03.307 * Background saving terminated with success
+[6645] 27 Mar 09:46:04.012 * 1 changes in 900 seconds. Saving...
+[6645] 27 Mar 09:46:04.014 * Background saving started by pid 8163
+[8163] 27 Mar 09:46:04.063 * DB saved on disk
+[8163] 27 Mar 09:46:04.064 * RDB: 6 MB of memory used by copy-on-write
+[6645] 27 Mar 09:46:04.115 * Background saving terminated with success
+[6645] 27 Mar 10:01:05.003 * 1 changes in 900 seconds. Saving...
+[6645] 27 Mar 10:01:05.004 * Background saving started by pid 8630
+[8630] 27 Mar 10:01:05.069 * DB saved on disk
+[8630] 27 Mar 10:01:05.070 * RDB: 6 MB of memory used by copy-on-write
+[6645] 27 Mar 10:01:05.105 * Background saving terminated with success
+[6645] 27 Mar 10:15:47.642 * 10 changes in 300 seconds. Saving...
+[6645] 27 Mar 10:15:47.643 * Background saving started by pid 9175
+[9175] 27 Mar 10:15:47.702 * DB saved on disk
+[9175] 27 Mar 10:15:47.703 * RDB: 6 MB of memory used by copy-on-write
+[6645] 27 Mar 10:15:47.744 * Background saving terminated with success
+[6645] 27 Mar 10:30:48.006 * 1 changes in 900 seconds. Saving...
+[6645] 27 Mar 10:30:48.008 * Background saving started by pid 9647
+[9647] 27 Mar 10:30:48.069 * DB saved on disk
+[9647] 27 Mar 10:30:48.070 * RDB: 6 MB of memory used by copy-on-write
+[6645] 27 Mar 10:30:48.108 * Background saving terminated with success
+[6645] 27 Mar 10:45:49.038 * 1 changes in 900 seconds. Saving...
+[6645] 27 Mar 10:45:49.039 * Background saving started by pid 10228
+[10228] 27 Mar 10:45:49.092 * DB saved on disk
+[10228] 27 Mar 10:45:49.093 * RDB: 6 MB of memory used by copy-on-write
+[6645] 27 Mar 10:45:49.140 * Background saving terminated with success
+[6645] 27 Mar 10:59:29.556 * 10 changes in 300 seconds. Saving...
+[6645] 27 Mar 10:59:29.558 * Background saving started by pid 10979
+[10979] 27 Mar 10:59:29.616 * DB saved on disk
+[10979] 27 Mar 10:59:29.616 * RDB: 6 MB of memory used by copy-on-write
+[6645] 27 Mar 10:59:29.659 * Background saving terminated with success
+[6645] 27 Mar 11:04:30.074 * 10 changes in 300 seconds. Saving...
+[6645] 27 Mar 11:04:30.075 * Background saving started by pid 11239
+[11239] 27 Mar 11:04:30.133 * DB saved on disk
+[11239] 27 Mar 11:04:30.134 * RDB: 6 MB of memory used by copy-on-write
+[6645] 27 Mar 11:04:30.175 * Background saving terminated with success
+[6645] 27 Mar 11:09:31.079 * 10 changes in 300 seconds. Saving...
+[6645] 27 Mar 11:09:31.080 * Background saving started by pid 11519
+[11519] 27 Mar 11:09:31.180 * DB saved on disk
+[11519] 27 Mar 11:09:31.181 * RDB: 6 MB of memory used by copy-on-write
+[6645] 27 Mar 11:09:31.281 * Background saving terminated with success
+[6645] 27 Mar 11:14:32.089 * 10 changes in 300 seconds. Saving...
+[6645] 27 Mar 11:14:32.090 * Background saving started by pid 11791
+[11791] 27 Mar 11:14:32.162 * DB saved on disk
+[11791] 27 Mar 11:14:32.163 * RDB: 6 MB of memory used by copy-on-write
+[6645] 27 Mar 11:14:32.191 * Background saving terminated with success

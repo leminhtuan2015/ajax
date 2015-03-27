@@ -1,0 +1,25 @@
+<%= form_for :home, url: homes_path, html: {id: "ajax_form"},
+  method: :get, remote: true do |f| %>
+  <%= f.label :A %>
+  <%= f.text_field :a, class: 'form-control', value: @a %>
+  <%= f.label :B %>
+  <%= f.text_field :b, class: 'form-control', value: @b %>
+  <%= f.label "A+B" %>
+  <%= f.text_field :c, class: 'form-control', value: @c %>
+  <%= f.hidden_field :action, class: 'form-control', value: :sum %>
+  <%= f.submit "Submit", class: "btn btn-primary" %>
+<% end %>
+
+<script>
+$('#ajax_form').on('ajax:success', function(event, data, status, xhr) {
+  alert('success');
+});
+
+$('#ajax_form').on('ajax:error', function(event, xhr, status, error) {
+  alert('error');
+});
+
+$('#ajax_form').on('ajax:beforeSend', function(event, xhr, settings) {
+    alert('beforeSend');
+});
+</script>
